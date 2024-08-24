@@ -18,3 +18,37 @@ h1 {
     color: #333333;
     text-wrap: nowrap;
 }
+
+/* Manipulated the parent container to flex, putting them side by side  */
+#parent-container {
+    display: flex;
+    /* margin-top: 265px; */
+    /* margin-left: 77px; */
+}
+
+#image {
+    margin-top: 265px;
+    margin-left: 77px;
+}
+
+/* To adjust all well. Added class to all elements including image, and texts */
+/* .sizing {
+    margin-top: 265px;
+    margin-left: 77px;
+} */
+
+
+/* first text */
+#bad-new-text {
+    font-family: "Space Mono", monospace;
+    margin-top: 265px;
+    margin-left: 77x;
+    width: 886px;
+    height: 190px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 94.78px;
+    letter-spacing: -3.5%;
+    color: #333333;
+}
+

@@ -49,7 +49,6 @@ h1 {
     font-size: 20px;
     line-height: 35.54px;
     letter-spacing: -3.5%;
-    margin-top: 30px;
     color: #4f4f4f;
 }
 
@@ -79,4 +78,73 @@ h1 {
     font-size: 14px;
     font-weight: 700;
     font-family: "Montserrat", whitespace;
+}
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightgray;
+        width: 100%;
+    }
+
+    #parent-container {
+        flex-direction: column;
+    }
+
+    .image {
+        padding: 10px;
+        width: 286px;
+        height: 238px;
+        align-items: center;
+    }
+
+    #bad-news {
+        width: 300px;
+        height: 142px;
+        font-size: 38px;
+        font-family: "Space Mono", monospace;
+        font-weight: 700;
+        line-height: 41px;
+        letter-spacing: -3.5%;
+    }
+
+    #page {
+        width: 381px;
+        height: 60px;
+        font-family: "Space Mono", monospace;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 26.54px;
+        letter-spacing: -3.5%;
+        color: #4f4f4f;
+    }
+
+    h1 {
+        margin-top: 10px;
+        padding-left: 40px
+        /* text-align: center; */
+        width 133px;
+        font-family: "Inconsolata", monospace;
+        font-size: 24px;
+        line-height: 25.18px;
+        letter-spacing: -8%;
+        font-weight: 700;
+        color: #333333;
+    }
+
+    #bnt {
+        width: 216px;
+        height: 68px;
+        /* margin-top: 50px; */
+        background-color: #333333;
+        color: #ffffff;
+        cursor: pointer;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: -3.5%;
+        border-radius: 20px;
+    }
+    
+    
 }
